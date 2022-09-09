@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main: Entry point
+ * main - Entry point
  *
  *Return: 0 (success)
  */
 int main(void)
-{ int n;
-for (n = 0; n <= 10; n++)
+{ int i;
+for (i = 0; i <= 10; i++)
 {
-printf("%i", n);
+printf("%i", i);
 }
 return (0);
 }
