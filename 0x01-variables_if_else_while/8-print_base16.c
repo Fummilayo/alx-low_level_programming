@@ -7,7 +7,7 @@
 int main(void)
 {int hexa_decimal;
 char letter;
-for( hexa_decimal = 0; hexa_decimal < 10; hexadecimal++)
+for( hexa_decimal = 0; hexa_decimal < 10; hexa_decimal++)
 {
 putchar((hexa_decimal % 10) + '0');
 }
