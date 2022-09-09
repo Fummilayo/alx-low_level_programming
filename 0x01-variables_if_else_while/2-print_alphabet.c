@@ -8,6 +8,6 @@ int main(void)
 {char c;
 c = 'a';
 while(c <= 'z')
-{ putchar("%c\n", c);
-c = c + 1;
+{ putchar(c);
+putchar("\n")
 }
