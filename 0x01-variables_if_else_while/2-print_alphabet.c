@@ -5,11 +5,11 @@
  * Return: 0 (success)
  */
 int main(void)
-{char c;
-c = 'a';
-while(c <= 'z')
-{ putchar(c);
+{char alphabet;
+alphabet = 'a';
+while(alphabet <= 'z')
+{putchar(c);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
