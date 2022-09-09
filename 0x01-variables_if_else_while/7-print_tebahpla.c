@@ -5,10 +5,10 @@
  *Return: Always 0 (success)
  */
 int main(void)
-{ char alphabet;
-for (alphabet = 'z'; alphabet >= a; alphabet--)
+{ char letter;
+for (letter = 'z'; letter >= a; letter--)
 {
-putchar(alphabet);
+putchar(letter);
 }
 putchar('\n');
 return (0);
