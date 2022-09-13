@@ -4,7 +4,7 @@
  *
  * Return: Always 0(success)
  */
-int main(void)
+void print_alphabet(void)
 { int i = 0;
 while (i < 10)
 { 
