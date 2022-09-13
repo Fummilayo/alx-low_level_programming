@@ -5,8 +5,7 @@
  *Return: absolute value of ab
  */
 int _abs(int n)
-{ 
-if (n < 0)
+{ if (n < 0)
 {
 n = -n;
 return (n);
