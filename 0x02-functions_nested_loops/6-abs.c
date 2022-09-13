@@ -5,5 +5,5 @@
  *Return: absolute value of ab
  */
 int _abs(int)
-{ return (abs *((abs  > 0) - ((abs < 0))));
+{ return (_abs *((_abs  > 0) - ((_abs < 0))));
 }
