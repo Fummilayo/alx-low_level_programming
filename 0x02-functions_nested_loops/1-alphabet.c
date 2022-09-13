@@ -5,16 +5,9 @@
  * Return: Always 0(success)
  */
 void print_alphabet(void)
-{ int i = 0;
-while (i < 10)
-{ 
-char alphabet  = 'a';
-while(alphabet < 'z')
-{
-_putchar(alphabet);
-alphabet++;
+{ int j;
+for (j = 'a'; j <= 'z'; j++)
+{_putchar(j);
 }
 _putchar('\n');
-i++;
-}
 }
