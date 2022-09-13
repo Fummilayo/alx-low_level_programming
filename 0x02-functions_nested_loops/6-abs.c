@@ -1,13 +1,9 @@
 #include "main.h"
 /**
  *_abs - a function that computes the absolute value of an integer
- *@n: integer input
+ *@ab: integer input
  *Return: absolute value of ab
  */
-int _abs(int n)
-{ if (n < 0)
-{
-n = -n;
-return (n);
-}
+int _abs(int ab)
+{ return (ab * ((ab > 0) - (ab < 0)));
 }
