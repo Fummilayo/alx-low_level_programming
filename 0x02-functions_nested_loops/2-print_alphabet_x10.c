@@ -4,19 +4,16 @@
  *
  */
 void print_alphabet_x10(void)
-{ int i = 0;
-while (i < 10)
+{ int i;
+int alphabet;
+for (i = 0; i < 10; i++)
 {
-int alphabet = 'a';
-while (alphabet < 'z')
+ for(alphabet = 'a'; alphabet < 'z'; alphabet++)
 {
 _putchar(alphabet);
-alphabet++;
 }
-_putchar('\n');
-i++;
+putchar('\n');
 }
 }
-
 
 
