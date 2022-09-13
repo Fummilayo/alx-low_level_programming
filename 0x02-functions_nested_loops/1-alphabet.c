@@ -11,10 +11,10 @@ while (i < 10)
 char alphabet  = 'a';
 while(alphabet < 'z')
 {
-putchar(alphabet);
+_putchar(alphabet);
 alphabet++;
 }
-putchar('\n');
+_putchar('\n');
 i++;
 }
 }
