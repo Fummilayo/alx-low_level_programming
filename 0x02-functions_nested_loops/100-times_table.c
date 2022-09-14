@@ -21,7 +21,7 @@ _putchar(' ');
 if (p / 100  >= 1)
 {
 _putchar('0' + p / 100);
-_putchar('0' + p / 10 % 10);
+_putchar('0' + p / 10 );
 _putchar('0' + p % 10);
 }
 else if (p / 10 >= 1)
