@@ -14,7 +14,7 @@ for (rol = 0; rol <= n; ++rol)
 {
 _putchar('0');
 _putchar(',');
-for (con = 1; con <= n; ++con)
+for (con = 0; con <= n; ++con)
 {
 j = con * rol;
 _putchar(' ');
