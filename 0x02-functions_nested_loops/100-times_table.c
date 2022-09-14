@@ -18,7 +18,7 @@ for (con = 1; con <= n; con++)
 {
 p = con * rol;
 _putchar(' ');
-if (j == 0)
+if (p == 0)
 {
 _putchar(p + '0');
 }
