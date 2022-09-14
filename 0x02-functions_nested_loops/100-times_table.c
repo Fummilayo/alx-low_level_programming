@@ -12,12 +12,9 @@ if (n <= 15 && n > 0)
 {
 for (rol = 0; rol <= n; rol++)
 {
-_putchar('0');
-_putchar(',');
-for (con = 1; con <= n; con++)
+for (con = 0; con <= n; con++)
 {
 p = con * rol;
-_putchar(' ');
 if (con == 0)
 {
 _putchar(p + '0');
