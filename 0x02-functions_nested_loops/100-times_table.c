@@ -18,33 +18,36 @@ for (con = 1; con <= n; con++)
 {
 p = con * rol;
 _putchar(' ');
-if (p == 0)
+if (con == 0)
 {
 _putchar(p + '0');
 }
-if (p / 100  >= 1)
+else if (p < 10 && con != 0)
 {
-_putchar('0' + p / 100);
-_putchar('0' + p / 10 % 10);
-_putchar('0' + p % 10);
-}
-else if (p / 10 >= 1)
-{
-_putchar(' ');
-_putchar('0' + p / 10);
-_putchar('0' + p % 10);
-}
-else
-{
-_putchar(' ');
-_putchar(' ');
-_putchar('0' + p);
-}
-if (con < n)
 _putchar(',');
-else
-_putchar('\n');
+_putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar(p + '0');
 }
+else if (p >= 10 && p < 100)
+{
+_putchar(',');
+_putchar(',');
+_putchar(' ');
+_putchar((p / 10) + '0');
+_putchar((p % 10) + '0');
+}
+else if (p >= 100)
+{
+_putchar(',');
+_putchar(' ');
+_putchar((p / 100) + '0');
+_putchar(((p / 10) % 10) + '0');
+_putchar(((p & 10) + '0');
+}
+}
+_putchar('\n');
 }
 }
 }
