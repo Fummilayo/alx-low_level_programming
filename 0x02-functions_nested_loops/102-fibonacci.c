@@ -12,7 +12,7 @@ for (i = 1; i <= 50; ++i)
 {
 if (j != 20365011074)
 {
-printf("ld", j);
+printf("%ld, ", j);
 }
 else
 {
