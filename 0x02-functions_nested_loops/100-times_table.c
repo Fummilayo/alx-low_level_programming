@@ -18,6 +18,10 @@ for (con = 1; con <= n; con++)
 {
 p = con * rol;
 _putchar(' ');
+if (j == 0)
+{
+_putchar(p + '0');
+}
 if (p / 100  >= 1)
 {
 _putchar('0' + p / 100);
