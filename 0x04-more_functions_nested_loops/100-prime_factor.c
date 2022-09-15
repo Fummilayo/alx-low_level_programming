@@ -5,9 +5,9 @@
  *
  */
 int main(void)
-{ long number = 612852475143;
+{ long int number = 612852475143;
 int c;
-for (c = 0; c < number / 2; c++)
+for (c++ < number / 2)
 {
 if (number % c == 0)
 {
