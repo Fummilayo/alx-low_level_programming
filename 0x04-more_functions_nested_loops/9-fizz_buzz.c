@@ -7,25 +7,23 @@
  */
 int main(void)
 { int i;
-char f[] = "Fizz";
-char b[] = "Buzz";
-char fb[] = "FizzBuzz";
-for (i = 1; i <= 100; i++)
+for (i = 1; i < 100; i++)
 {
-if (i == 100)
+if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("%s", b);
+printf("FizzBuzz ");
+}
+else if (i % 3 == 0)
+{
+printf("Fizz");
 }
 else if (i % 5 == 0)
 {
-printf("%s ", b);
+printf("Buzz ");
 }
-else if (i % 3 == 0){
-printf("%s ", f);
-}
-else if ((i % 3 == 0) && (i % 5 == 0))
+else if (i == 100)
 {
-printf("%s ", fb);
+printf("Buzz");
 }
 else
 {
