@@ -7,38 +7,28 @@
  */
 void print_number(int n)
 {
-unsigned int m; /* power of 10 */
-int c; /* boolean check */
-unsigned int num; /* convert int to long */
-num = n;
-/* negatives */
-if (num < 0)
+unsigned int n2, number, base10 = 1;
+if (n < 0)
 {
-num *= -1;
 _putchar('-');
-}
-/* count up */
-m = 1;
-c = 1;
-while (c)
-{
-if (num / (m * 10) > 0)
-m *= 10;
-else
-c = 0;
-}
-/* count down */
-while (num >= 0)
-{
-if (m == 1)
-{
-_putchar(num % 10 + '0');
-num = -1;
+n2 = -n;
 }
 else
 {
-_putchar((num / m % 10) + '0');
-m /= 10;
+n2 = n;
 }
+number = n2;
+while (number > 9)
+{
+number = number / 10;
+base10 = base10 * 10;
 }
+number = n2;
+while(base10 > 1)
+{
+_putchar((number /base10) + '0');
+number = number % base10;
+base10 = base10 / 10;
+}
+_putchar((n2 % 10) + '0');
 }
