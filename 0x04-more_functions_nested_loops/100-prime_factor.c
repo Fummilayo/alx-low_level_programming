@@ -5,19 +5,15 @@
  *
  */
 int main(void)
-{ long int number = 612852475143;
+{ long  number = 612852475143;
 int c;
-for (c++ < number / 2)
+for (c = (int) sqrt(number); c < 2; c++)
 {
 if (number % c == 0)
 {
-number /= 2;
-continue;
-}
-for (c = 3; c < number / 2; c += 2)
-{
-if (number % c == 0)
-number /= c;
+printf("%d\n", c);
+break;
 }
 }
+return (0);
 }
