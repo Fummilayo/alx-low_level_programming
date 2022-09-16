@@ -7,15 +7,17 @@
  */
 void print_number(int n)
 {
-long i;
-int j;
-long number;
+long i; /* power of 10 */
+int j; /* boolean check */
+long number; /* convert int to long */
 number = n;
+/* negatives */
 if (number < 0)
 {
 number *= -1;
 _putchar('-');
 }
+/* count up */
 i = 1;
 j = 1;
 while (j)
@@ -29,6 +31,7 @@ else
 j = 0;
 }
 }
+/* count down */
 while (number >= 0)
 {
 if (i == 1)
