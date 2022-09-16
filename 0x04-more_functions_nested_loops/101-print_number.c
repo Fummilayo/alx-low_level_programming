@@ -38,7 +38,7 @@ number = -1;
 }
 else
 {
-_putchar((num / m % 10) + '0');
+_putchar((number / i % 10) + '0');
 i /= 10;
 }
 }
