@@ -6,5 +6,5 @@
  * Return: Always 0 (success)
  **/
 int _strlen(char *s)
-{ int length = strlen(s);
+{ char length = strlen(s);
 }
