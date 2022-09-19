@@ -9,7 +9,7 @@
  */
 void print_array(int *a, int n)
 { int i;
-for (i = 0; i < n; i++)
+for (n--; n >= 0; n--, i++)
 {
 printf("%d", a[i]);
 if (n > 0)
