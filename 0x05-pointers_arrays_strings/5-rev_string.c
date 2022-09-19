@@ -8,4 +8,5 @@
 void rev_string(char *s)
 { int length;
 length = strrev(s);
+return 0;
 }
