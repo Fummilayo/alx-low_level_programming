@@ -7,7 +7,6 @@
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
-{ int len;
-len = strcat(dest, src);
+{  strcat(dest, src);
 return (dest);
 }
