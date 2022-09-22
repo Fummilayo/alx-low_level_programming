@@ -13,6 +13,6 @@ n *= -1;
 }
 s = n;
 if (s / 10)
-print_numbers(s / 10);
+print_number(s / 10);
 _putchar(s % 10 + '0');
 }
