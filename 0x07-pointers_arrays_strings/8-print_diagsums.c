@@ -15,8 +15,8 @@ d += *(a + c);
 }
 for (b = 0; b < size; b++)
 {
-c = (b * size) + (size - 1 - j);
-e += *(a + p);
+c = (b * size) + (size - 1 - b);
+e += *(a + c);
 }
 printf("%i, %i\n", d, e);
 }
