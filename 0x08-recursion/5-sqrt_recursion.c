@@ -7,24 +7,24 @@
  */
 int _sqrt_recursion(int n)
 {
-return (sqrt_number(n, 1));
+return (halp(n, 1));
 }
 
 /**
- * sqrt_number -  help function to solve _sqrt_recursion
+ * halp -  help function to solve _sqrt_recursion
  * @c: number to determine if square root
  *  @i: incrementer to compare against `c`
  *  Return: square root if natural square root,
  *  or -1 if none found
  */
-int sqrt_number(int c, int i)
+int halp(int c, int i)
 {
 int square;
 square = i * i;
 if (square == c)
 return (i);
 else if (square < c)
-return (sqrt_number(c, i + 1));
+return (halp(c, i + 1));
 else
 return (-1);
 }
