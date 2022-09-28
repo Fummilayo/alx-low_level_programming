@@ -17,7 +17,7 @@ return (halp(n, 1));
  *  Return: square root if natural square root,
  *  or -1 if none found
  */
-int halp(int c, int i)
+void halp(int c, int i)
 {
 int square;
 square = i * i;
