@@ -12,7 +12,7 @@ return (0);
 else if (i > j / 2)
 return (1);
 else
-return (primenumber(i + 1, j));
+return (prime_number(i + 1, j));
 }
 
 
