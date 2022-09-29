@@ -8,9 +8,10 @@
  */
 
 int sqrt_number(int i, int j)
+{
 if (i * i == j)
 return (i);
-else if (i * i > j)
+if (i * i > j)
 return (-1);
 return (sqrt_number(i + 1, j));
 }
