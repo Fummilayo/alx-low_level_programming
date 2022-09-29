@@ -6,7 +6,7 @@
  */
 int length_of_string(char *s)
 {
-if (s != '\0')
+if (s[0] != '\0')
 return (1 + length_of_string(s + 1));
 return (0);
 }
