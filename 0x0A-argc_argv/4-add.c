@@ -19,6 +19,7 @@ for (i = 1; argv[i]; i++)
 {
 num = strtol(argv[i], &s, 10);
 if (!*s)
+{
 sum += num;
 }
 else
