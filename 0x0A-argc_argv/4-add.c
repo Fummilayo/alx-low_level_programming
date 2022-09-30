@@ -15,7 +15,7 @@ int num;
 sum = 0;
 if (argc > 1)
 {
-for (i = 1; i < argv[i]; i++)
+for (i = 1; argv[i]; i++)
 {
 num = strtol(argv[i], &s, 10);
 if (!*s)
