@@ -5,3 +5,6 @@
                                                                                                                 
 #include <stdio.h> 
 int _putchar(char c);
+
+
+#endif /* MAIN_H */
