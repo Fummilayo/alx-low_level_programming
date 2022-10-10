@@ -1,12 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
- * @argc: argument count
- * @argv: argument vector
  * Return: it returns 0
  */
-int main(int argc, char *argv[])
+int main(void)
 {
-printf("%s\n", argv[0]);
+printf("%s\n", _FILE_);
 return (0);
 }
