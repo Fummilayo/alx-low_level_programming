@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include <stdio.h>
+#include "holberton.h"
 /**
- * main - Entry point
- * Return: it returns 0
+ * main - Entry Point
+ * Return: 0
  */
 int main(void)
 {
